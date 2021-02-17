@@ -1,0 +1,13 @@
+C:\Users\mousj\Documents\School\Algorithms\Sample Algos\bin\Debug\netcoreapp3.1\Sample Algos.exe
+C:\Users\mousj\Documents\School\Algorithms\Sample Algos\bin\Debug\netcoreapp3.1\Sample Algos.deps.json
+C:\Users\mousj\Documents\School\Algorithms\Sample Algos\bin\Debug\netcoreapp3.1\Sample Algos.runtimeconfig.json
+C:\Users\mousj\Documents\School\Algorithms\Sample Algos\bin\Debug\netcoreapp3.1\Sample Algos.runtimeconfig.dev.json
+C:\Users\mousj\Documents\School\Algorithms\Sample Algos\bin\Debug\netcoreapp3.1\Sample Algos.dll
+C:\Users\mousj\Documents\School\Algorithms\Sample Algos\bin\Debug\netcoreapp3.1\Sample Algos.pdb
+C:\Users\mousj\Documents\School\Algorithms\Sample Algos\obj\Debug\netcoreapp3.1\Sample Algos.csprojAssemblyReference.cache
+C:\Users\mousj\Documents\School\Algorithms\Sample Algos\obj\Debug\netcoreapp3.1\Sample Algos.AssemblyInfoInputs.cache
+C:\Users\mousj\Documents\School\Algorithms\Sample Algos\obj\Debug\netcoreapp3.1\Sample Algos.AssemblyInfo.cs
+C:\Users\mousj\Documents\School\Algorithms\Sample Algos\obj\Debug\netcoreapp3.1\Sample Algos.csproj.CoreCompileInputs.cache
+C:\Users\mousj\Documents\School\Algorithms\Sample Algos\obj\Debug\netcoreapp3.1\Sample Algos.dll
+C:\Users\mousj\Documents\School\Algorithms\Sample Algos\obj\Debug\netcoreapp3.1\Sample Algos.pdb
+C:\Users\mousj\Documents\School\Algorithms\Sample Algos\obj\Debug\netcoreapp3.1\Sample Algos.genruntimeconfig.cache
