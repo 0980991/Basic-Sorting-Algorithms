@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mousj\\Documents\\School\\Algorithms\\Sample Algos\\Sample Algos.csproj": {}
+    "C:\\Users\\mousj\\Documents\\GitHub\\Basic-Sorting-Algorithms\\Sample Algos\\Sample Algos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mousj\\Documents\\School\\Algorithms\\Sample Algos\\Sample Algos.csproj": {
+    "C:\\Users\\mousj\\Documents\\GitHub\\Basic-Sorting-Algorithms\\Sample Algos\\Sample Algos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mousj\\Documents\\School\\Algorithms\\Sample Algos\\Sample Algos.csproj",
+        "projectUniqueName": "C:\\Users\\mousj\\Documents\\GitHub\\Basic-Sorting-Algorithms\\Sample Algos\\Sample Algos.csproj",
         "projectName": "Sample Algos",
-        "projectPath": "C:\\Users\\mousj\\Documents\\School\\Algorithms\\Sample Algos\\Sample Algos.csproj",
+        "projectPath": "C:\\Users\\mousj\\Documents\\GitHub\\Basic-Sorting-Algorithms\\Sample Algos\\Sample Algos.csproj",
         "packagesPath": "C:\\Users\\mousj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mousj\\Documents\\School\\Algorithms\\Sample Algos\\obj\\",
+        "outputPath": "C:\\Users\\mousj\\Documents\\GitHub\\Basic-Sorting-Algorithms\\Sample Algos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mousj\\AppData\\Roaming\\NuGet\\NuGet.Config",

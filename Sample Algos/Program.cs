@@ -5,6 +5,13 @@ namespace Sample_Algos
 {
     class Program
     {
+        public static int[] SwapPositions(int[] sequence, int i) //Swap the positions of two consecutive elements in an array
+        {
+            int temp = sequence[i];
+            sequence[i] = sequence[i+1];
+            sequence[i+1] = temp;            
+            return sequence;
+        }
         public static int GenerateLength() //Generate a random integer between 2 - 40 to use as the length of our array
         {
             
@@ -32,9 +39,7 @@ namespace Sample_Algos
                     if(i != sequence.Length - 1){ //Prevents exception errors with [i+1]
                         if(sequence[i] < sequence[i+1])
                         {
-                            int temp = sequence[i];
-                            sequence[i] = sequence[i+1];
-                            sequence[i+1] = temp;
+                            sequence = SwapPositions(sequence, i);
                             counter++;                                 
                         }                        
                     }
@@ -58,9 +63,7 @@ namespace Sample_Algos
                     if(i != sequence.Length - 1){ //Prevents exception errors with [i+1]
                         if(sequence[i] < sequence[i+1])
                         {
-                            int temp = sequence[i];
-                            sequence[i] = sequence[i+1];
-                            sequence[i+1] = temp;
+                            sequence = SwapPositions(sequence, i);
                             counter++;                                 
                         }                        
                     }
@@ -81,8 +84,8 @@ namespace Sample_Algos
             for(int i = 0; i < sequence.GetLength(0); i++)
                 {   
                     //Console.WriteLine(sequence[i]);
-                    Console.WriteLine(BubbleSort(sequence)[i]);
-                    //Console.WriteLine(BubbleSortFaster(sequence)[i]);
+                    //Console.WriteLine(BubbleSort(sequence)[i]);
+                    Console.WriteLine(BubbleSortFaster(sequence)[i]);
                 }       
 
         }
