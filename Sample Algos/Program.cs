@@ -76,6 +76,73 @@ namespace Sample_Algos
             return sequence;
         }
         
+        public static int[] SortPair(int[] sequence)
+        {
+            if(sequence[1] > sequence[0])
+            {
+                sequence = SwapPositions(sequence, 0);
+            }
+            return sequence;
+        }
+
+        public static int[] CopyArraySection(int[] sequence, int length, int index)
+        {
+            int sl = sequence.Length;
+            int[] sequence2 = new int[length];
+            int sl2 = sequence2.Length;
+            if(index == 0)
+            {
+                for(int i = 0; i < sl2; i++)
+                {
+                    sequence2[i] = sequence[i];
+                }
+                
+            }
+            else
+            {
+                for(int i = 0; i < sl2; i++)
+                {
+                    sequence2[sl + i] = sequence[sl + i];
+                }
+            }
+            return sequence2;
+        }
+
+        public static int[][] SplitArray(int[] sequence)
+        {
+            int sl = sequence.Length;
+            int[][] splitArrays = new int[2][];
+
+            splitArrays[0] = new int[sl/2];
+            splitArrays[0] = CopyArraySection(sequence, sl/2, 0);
+
+            splitArrays[1] = new int[sl - sl/2];
+            splitArrays[1] = CopyArraySection(sequence, sl - sl/2, 1);
+            
+            return splitArrays;
+        }
+        public static int[] MergeSort(int[] sequence)
+        {
+            bool isSorted = false;
+            //int counter = 0; //Counts the amount of the times the array is broken down
+            //int firstRow = (sequence.Length/4);
+
+            for(int i = 4; i <= sequence.Length/2;)
+                if (sequence.Length < 2)
+                {
+                    sequence = SortPair(sequence);
+                }
+                if (sequence.Length > 2 )
+                {
+                    for(int j = 0; j < )
+                    SplitArray()
+                }
+
+
+
+
+            return sequence;
+        }
         static void Main(string[] args)
         {
             
