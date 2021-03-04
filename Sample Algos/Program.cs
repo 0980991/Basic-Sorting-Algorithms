@@ -108,7 +108,7 @@ namespace Sample_Algos
             return sequence2;
         }
 
-        public static int[][] SplitArray(int[] sequence)
+        public static int[][] SplitArray(int[] sequence) //Splits the array into two halves
         {
             int sl = sequence.Length;
             int[][] splitArrays = new int[2][];
@@ -116,6 +116,7 @@ namespace Sample_Algos
             splitArrays[0] = new int[sl/2];
             splitArrays[0] = CopyArraySection(sequence, sl/2, 0);
 
+            //hard coded in case the array is not divisible by 2
             splitArrays[1] = new int[sl - sl/2];
             splitArrays[1] = CopyArraySection(sequence, sl - sl/2, 1);
             
@@ -123,19 +124,23 @@ namespace Sample_Algos
         }
         public static int[] MergeSort(int[] sequence)
         {
+            int sl = sequence.Length;
             bool isSorted = false;
             //int counter = 0; //Counts the amount of the times the array is broken down
             //int firstRow = (sequence.Length/4);
 
-            for(int i = 4; i <= sequence.Length/2;)
-                if (sequence.Length < 2)
+            for(int i = 4; i <= sl/2; i += 2)
+                if (sl == 1)
+                {
+                    return sequence;
+                }
+                else if (sl == 2)
                 {
                     sequence = SortPair(sequence);
                 }
-                if (sequence.Length > 2 )
+                else if (sl > 2 )
                 {
-                    for(int j = 0; j < )
-                    SplitArray()
+                    sequence = SplitArray(sequence);
                 }
 
 
