@@ -148,6 +148,20 @@ namespace Sample_Algos
 
             return sequence;
         }
+        public static void Merge(int[] a, int low, int mid, int high)
+        {
+            int length1 = mid - low + 1;
+            int length2 = high - mid;
+            int[] a1 = new int[length1];
+            int[] a2 = new int[length2];
+
+            //Copies the values from the large array to the 2 separate arrays
+            for(int i = 0; i < length1; i++)
+            {
+                a1[i] = a[i + low;
+            }
+
+        } 
         static void Main(string[] args)
         {
             
